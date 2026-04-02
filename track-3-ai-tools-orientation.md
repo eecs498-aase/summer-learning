@@ -46,7 +46,7 @@ This is the mental model we use throughout the course. Every time you interact w
 Bad results almost always trace back to one of these three being wrong. Phase 1 teaches this systematically — for now, just know the framework exists.
 
 ### Tokens, Context Windows, and Cost
-- **Tokens** ≈ word fragments. "Hello world" is 2 tokens. A typical Python file is 200-500 tokens. A full project might be 50,000+.
+- **Tokens** ≈ word fragments. "Hello world" is 2 tokens. A typical Python or TypeScript file is 200-500 tokens. A full project might be 50,000+.
 - **Context window** = maximum tokens the model can process in one request (input + output). GPT-4o: 128K. Claude Sonnet: 200K. Bigger isn't always better — cost scales with usage.
 - **Cost** = (input tokens × input price) + (output tokens × output price). A typical Aider edit costs $0.01-0.10. A complex multi-file change might cost $0.50-2.00.
 
@@ -80,13 +80,13 @@ export OPENAI_API_KEY="sk-..."
 # or
 export ANTHROPIC_API_KEY="sk-ant-..."
 
-# Navigate to any small Python project (or create one)
+# Navigate to any small Python or TypeScript project (or create one)
 cd ~/my-test-project
 aider
 ```
 
 Try these interactions:
-1. Ask Aider to create a new Python file with a specific function
+1. Ask Aider to create a new file (Python or TypeScript) with a specific function
 2. Ask it to add type hints to existing code
 3. Ask it to write tests for a function
 4. Ask it to refactor something — rename a function, extract a class
@@ -108,7 +108,7 @@ Rules:
 - Notice when Aider gets confused and think about *why* (usually a context or prompt issue)
 
 ### Exercise 3: Make a Raw LLM API Call
-Understand what's happening beneath tools like Aider. Write a Python script that calls an LLM API directly:
+Understand what's happening beneath tools like Aider. Write a script (Python or TypeScript) that calls an LLM API directly:
 
 ```python
 import httpx
@@ -149,7 +149,7 @@ Try these without looking anything up:
 
 1. Start Aider in a project, add specific files to context, and make a targeted edit
 2. Explain the Context-Model-Prompt framework — what are the three levers, and what happens when one is wrong?
-3. Estimate the token count for a 200-line Python file (ballpark is fine)
+3. Estimate the token count for a 200-line source file (ballpark is fine)
 4. Make a raw API call to OpenAI or Anthropic using `httpx` and parse the response
 5. Explain why sending your entire codebase as context for every request is a bad idea (hint: it's not just cost)
 

@@ -13,15 +13,15 @@ The course moves fast — Phase 1 starts with AI-assisted coding on Day 1. These
 
 | Weeks | Track | Focus |
 |-------|-------|-------|
-| 1-2 | [Python Fluency](track-1-python-fluency.md) | Modern Python 3.11+ for everything we build |
+| 1-2 | [Python & TypeScript Fluency](track-1-python-fluency.md) | Modern Python 3.11+ and TypeScript for everything we build |
 | 3-4 | [CLI & Git Mastery](track-2-cli-git-mastery.md) | Terminal productivity and professional Git workflows |
 | 5-6 | [AI Tools Orientation](track-3-ai-tools-orientation.md) | Aider, LLM APIs, and your first AI-assisted project |
 | 7-8 | [Systems Thinking](track-4-systems-thinking.md) | Multi-component architectures and building your first agent |
 
 ## The Four Tracks
 
-### Track 1: Python Fluency (Weeks 1-2)
-Every project in this course is Python. We assume you can write clean, well-structured Python 3.11+ code on Day 1. This track covers type hints, dataclasses, async/await, pathlib, HTTP requests, testing with pytest, and virtual environment management. You'll build a file-based state manager, an HTTP API client, and a CLI tool — all patterns that show up directly in the course projects.
+### Track 1: Python & TypeScript Fluency (Weeks 1-2)
+Projects use both Python and TypeScript. We assume you can write clean, well-structured code in both on Day 1. This track covers Python 3.11+ (type hints, dataclasses, async/await, pathlib, pytest) and TypeScript (types, interfaces, async/await, Node.js basics). You'll build the same exercises in both languages — patterns that show up directly in the course projects.
 
 ### Track 2: CLI & Git Mastery (Weeks 3-4)
 You'll live in the terminal all semester. This track takes you beyond EECS 201 basics into real productivity: piping and text processing, environment variables, process management, SSH key setup, and `jq` for JSON. On the Git side, you'll practice branching strategies, interactive rebase, merge conflict resolution, `git log/diff/blame`, the GitHub CLI (`gh`), and fork/upstream workflows. The goal is muscle memory — you should be able to branch, commit, rebase, and PR without thinking.
@@ -34,10 +34,10 @@ Phases 2 and 3 are about building agent systems — programs that reason, use to
 
 ## How to Use This
 
-- **Already strong in Python?** Skip Track 1, start at Track 2.
+- **Already strong in Python and TypeScript?** Skip Track 1, start at Track 2.
 - **Comfortable in the terminal?** Skip Track 2.
 - **Already use AI coding tools?** Skim Track 3, focus on Track 4.
-- **Coming from EECS 281 with solid C++?** Prioritize Tracks 1 and 4.
+- **Coming from EECS 281 with solid C++?** Prioritize Tracks 1 (both languages) and 4.
 
 Each track has:
 - A skills checklist (self-assess before diving in)

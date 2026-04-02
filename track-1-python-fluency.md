@@ -1,11 +1,30 @@
-# Track 1: Python Fluency
+# Track 1: Python & TypeScript Fluency
 
 **Timeline:** Weeks 1-2 (self-paced)  
-**Goal:** Be comfortable writing Python 3.11+ code with modern features
+**Goal:** Be comfortable writing Python 3.11+ and TypeScript code with modern features
 
 ## Why This Matters
 
-Every project in EECS 498 AASE is Python. We assume you can write clean, well-structured Python code on Day 1. If your Python is rusty or you learned in another language, this track gets you up to speed.
+Projects in EECS 498 AASE use both Python and TypeScript. We assume you can write clean, well-structured code in both on Day 1. If either language is rusty or new to you, this track gets you up to speed.
+
+## TypeScript Skills Checklist
+
+- [ ] **Types and interfaces** — primitives, union types, generics, `Record`, `Partial`, `Pick`
+- [ ] **Async/await** — Promises, `async` functions, `Promise.all`, error handling
+- [ ] **Node.js basics** — `fs/promises`, `path`, `process.env`, `fetch`
+- [ ] **Package management** — `npm`/`pnpm`, `package.json`, `tsconfig.json`
+- [ ] **JSON handling** — parsing, serialization, typed JSON responses
+- [ ] **Testing** — Vitest or Jest basics
+- [ ] **ES modules** — `import`/`export`, module resolution
+
+### TypeScript Resources
+1. **[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)** — Start here if new to TS
+2. **[Node.js + TypeScript](https://nodejs.org/en/learn/getting-started/nodejs-with-typescript)** — Official guide
+3. **Practice:** Redo the Python exercises below in TypeScript to compare patterns
+
+---
+
+## Python Section
 
 ## Skills Checklist
 
